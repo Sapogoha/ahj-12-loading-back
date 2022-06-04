@@ -1,0 +1,30 @@
+{
+  "name": "ahj-12-loading-back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "prestart": "npm install",
+    "start": "forever server.js",
+    "watch": "forever -w server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sapogoha/ahj-12-loading-back.git"
+  },
+  "keywords": [],
+  "author": "sapogoha",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/cors": "^3.3.0",
+    "faker": "^5.5.3",
+    "forever": "^3.0.4",
+    "koa": "^2.13.1",
+    "koa-body": "^4.2.0",
+    "koa-router": "^10.0.0",
+    "koa-slow": "^2.1.0"
+  },
+  "engines": {
+    "node": "11.x"
+  }
+}
